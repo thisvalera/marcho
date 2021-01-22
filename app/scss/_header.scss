@@ -1,9 +1,4 @@
-/* Style */
-@import "vars";
-@import "fonts";
- @import "reset";
-@import "global";
-
+// Header
 .header {
     padding: 40px 0;
     &__inner {
@@ -45,7 +40,7 @@
     }
    
     &__link + .user-nav__link {
-      margin-left: 25px;
+      padding-left: 25px;
   
     }
     &__num{
@@ -62,7 +57,3 @@
         line-height: 20px;
     }
   }
-// Sections
-
-//Media
- @import "media";

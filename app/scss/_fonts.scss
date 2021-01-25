@@ -22,19 +22,19 @@
     font-family: 'Roboto-regular';
     font-weight: 400;
     font-style: normal;
-    src: local('Roboto-Regilar'), 
+    src: local('Roboto-Regular'), 
          url(../fonts/roboto-regular.woff2) format('woff2'),
          url(../fonts/roboto-regular.woff) format('woff');
     font-display: swap;
 }
 
     @font-face{
-        font-family: 'Roboto';
+        font-family: 'Roboto-Bold';
         font-weight: 700;
         font-style: normal;
-        src: local('Roboto-Bolt'), 
-             url(../fonts/roboto-bolt.woff2) format('woff2'),
-             url(../fonts/roboto-bolt.woff) format('woff');
+        src: local('Roboto-Bold'), 
+             url(../fonts/Roboto-Bold.woff2) format('woff2'),
+             url(../fonts/roboto-bold.woff) format('woff');
         font-display: swap;
 
     }

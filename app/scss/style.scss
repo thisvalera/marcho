@@ -23,18 +23,19 @@
   &__list-link {
     text-transform: uppercase;
     color: $title;
-    padding-bottom: 1px;
-    transition: all 0.3s;
-    @extend %quicksan-400;
+    padding-bottom: 0 2px 1px;
+    transition: all .3s;
+    @extend %roboto-400;
     &:hover {
       color: $accent;
       border-bottom: 1px solid $accent;
+      @extend %roboto-700;
     }
   }
   &__list-link--active {
     color: $accent;
     border-bottom: 1px solid $accent;
-    @extend %quicksan-500;
+    @extend %roboto-700;
   }
 }
 

@@ -5,7 +5,7 @@ $('.top-slider__inner').slick({
     dots:true,
     fade:true,
     arrows:false,
-    autplay: true,
+    autoplay: true,
     autoplaySpead: 2000,
 
 });

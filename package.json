@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "@fancyapps/fancybox": "^3.5.7",
     "jquery": "^3.5.1",
     "sass": "^1.32.4"
   },

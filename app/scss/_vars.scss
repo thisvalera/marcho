@@ -35,11 +35,10 @@ $bg: #f6f6f6;
 }
 
 %checkbox-hidden {
-  width: 1px;
-  height: 1px;
+  width: 0px;
+  height: 0px;
   overflow: hidden;
   clip: rect(0 0 0 0);
-
 }
 
 @function max($numbers...) {

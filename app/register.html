@@ -1,34 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Document</title>
-    <link rel="stylesheet" href="css/login.min.css"/>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="css/login.min.css" />
+</head>
 
-  <body>
-
-    <header class="header">
+<body>
+  <header class="header">
     <div class="container">
       <div class="header__inner">
         <a class="logo" href="#">
           <img class="logo__img" src="images/logo.png" alt="logo" />
         </a>
         <nav class="menu">
-        <button class="menu__btn">
-        <span></span>
-        </button>
+          <button class="menu__btn">
+            <span></span>
+          </button>
           <ul class="menu__list">
             <li class="menu__list-item">
-              <a class=" menu__list-link " href="#">home</a>
+              <a class=" menu__list-link" href="index.html">home</a>
             </li>
             <li class="menu__list-item">
               <a class="menu__list-link" href="shop.html">shop</a>
             </li>
             <li class="menu__list-item">
-              <a class="menu__list-link menu__list-link--active" href="register.html">register</a>
+              <a class="menu__list-link menu__list-link--active" href="login.html">page</a>
             </li>
             <li class="menu__list-item">
               <a class="menu__list-link" href="blog.html">blog</a>
@@ -58,65 +57,66 @@
     </div>
   </header>
 
-    <main class="main">
+  <main class="main">
 
-      <section class="top">
-    <div class="top__container" style="background-image: url('images/top-bg.jpg');">
+    <section class="top">
+      <div class="top__container" style="background-image: url('images/top-bg.jpg');">
         <div class="container">
-            <h2 class="top__title title">
-           register
+          <h2 class="top__title title">
+            REGISTER
           </h2>
-            <div class="breadcrumbs">
-                <ul class="breadcrumbs__list">
-                    <li class="breadcrumbs__item">
-                        <a class="breadcrumbs__link" href="index.html">
+          <div class="breadcrumbs">
+            <ul class="breadcrumbs__list">
+              <li class="breadcrumbs__item">
+                <a class="breadcrumbs__link" href="index.html">
                   Home
                 </a>
-                    </li>
-                    <li class="breadcrumbs__item">
-                        <a class="breadcrumbs__link" href="login.html">
-                  register
+              </li>
+              <li class="breadcrumbs__item">
+                <a class="breadcrumbs__link" href="register.html">
+                  Register
                 </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</section>
-
-      <section class="modal">
-        <div class="container">
-          <div class="modal__links">
-            <a class="modal__link  modal__link--active" href="#">REGISTER</a>
-            <a class="modal__link" href="login.html">LOGIN</a>
+              </li>
+            </ul>
           </div>
-          <form class="modal__form" action="#">
-            <label class="modal__label">
+        </div>
+      </div>
+    </section>
+
+    <section class="modal">
+      <div class="container">
+        <div class="modal__links">
+          <a class="modal__link  modal__link--active" href="#">REGISTER</a>
+          <a class="modal__link" href="login.html">LOGIN</a>
+        </div>
+        <form class="modal__form" action="#">
+          <label class="modal__label">
             Username or email address*
             <input class="modal__input" type="text" required>
-            </label>
-            <label class="modal__label">
+          </label>
+          <label class="modal__label">
             Password*
             <input class="modal__input" type="password" required>
-            </label>
-            <P class="modal__text">
+          </label>
+          <P class="modal__text">
             A password will be sent to your email address.
-         </P>
-            <P class="modal__text">
-            Your personal data will be used to support your experience throughout this website, to manage access to your account, and for other purposes described in our privacy policy.
           </P>
-            <label class="modal__label">
-              <input type="checkbox">
+          <P class="modal__text">
+            Your personal data will be used to support your experience throughout this website, to manage access to your
+            account, and for other purposes described in our privacy policy.
+          </P>
+          <label class="modal__label">
+            <input type="checkbox">
             Agree with Terms & Conditions
           </label>
-            <button class="modal__btn" type="submit">REGISTER</button>
-          </form>
-        </div>
-      </section>
+          <button class="modal__btn" type="submit">REGISTER</button>
+        </form>
+      </div>
+    </section>
 
-    </main>
+  </main>
 
-    <footer class="footer">
+  <footer class="footer">
     <div class="container">
       <div class="footer-top">
         <div class="footer-top__item footer-top__contact">
@@ -264,7 +264,7 @@
     </div>
   </footer>
 
-    <script src="js/main.min.js"></script>
-  </body>
+  <script src="js/main.min.js"></script>
+</body>
 
 </html>
